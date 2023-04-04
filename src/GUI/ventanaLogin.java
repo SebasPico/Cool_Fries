@@ -30,7 +30,7 @@ public class ventanaLogin extends JFrame {
         fondo.setBounds(820,87,450,620);
 
         //logo
-        JLabel logo = new JLabel(new ImageIcon("Proyecto-Cool-Fries/imagenes/pizza.png"));
+        JLabel logo = new JLabel(new ImageIcon("CoolFries/imagenes/pizza.png"));
         logo.setBounds(10,20,256,256);
 
 
@@ -61,7 +61,7 @@ public class ventanaLogin extends JFrame {
         contenedor.add(panel,Integer.valueOf(0));
         contenedor.add(titulo,Integer.valueOf(1));
         contenedor.add(fondo,Integer.valueOf(1));
-        contenedor.add(logo,Integer.valueOf(1));
+        contenedor.add(logo,Integer.valueOf(2));
         contenedor.add(boton,Integer.valueOf(2));
         contenedor.add(correo,Integer.valueOf(2));
         contenedor.add(contrasena,Integer.valueOf(2));
